@@ -9,15 +9,15 @@ const file = process.argv[2];
 let before;
 let after;
 
-const toAppend = `\nAppended data: ${Math.round(Math.random() * 100)}`;
+const toAppend = `New data: ${Math.round(Math.random() * 100)}`;
 
 fs.readFile(file, (err, data) => {
   if (err) {throw err;} 
   before = `\nBefore:\n${data.toString()}`;
 
-  fs.appendFile(file, toAppend, (err, data) => {
+  fs.writeFile(file, toAppend, (err) => {
     if(err) {throw err;}
-    console.log(`appending to ${file}`);
+    console.log(`writing to ${file}`);
 
     fs.readFile(file, (err, data) => {
       if (err) {throw err;} 
