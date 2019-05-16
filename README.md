@@ -6,8 +6,8 @@
 ### Author: Morgana Spake  
   
 ### Links and Resources  
-* [submission PR](http://xyz.com)  
-* [travis](http://xyz.com)  
+* [submission PR](https://github.com/401-advanced-javascript-mspake/lab-03/pull/2)  
+* [travis](https://www.travis-ci.com/401-advanced-javascript-mspake/lab-03)  
   
 ### Modules  
 #### `reader.js, reader-promises.js, reader-async.js`  
