@@ -6,32 +6,21 @@
 ### Author: Morgana Spake  
   
 ### Links and Resources  
-* [submission PR](http://xyz.com)  
-* [travis](http://xyz.com)  
+* [submission PR](https://github.com/401-advanced-javascript-mspake/lab-03/pull/2)  
+* [travis](https://www.travis-ci.com/401-advanced-javascript-mspake/lab-03)  
   
 ### Modules  
-#### `modulename.js`
-##### Exported Values and Methods
+#### `reader.js, reader-promises.js, reader-async.js`  
+##### Exported Values and Methods  
+  `readAll([...files],callback);  
+  contents = [];`  
+   
+### Setup   
+   
+#### Running the app   
+* `node index.js <filePath1> <filePath2> <filePath3> ...`     
+   
+#### Tests   
+* How do you run tests?  
+`npm test`  
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup  
-  
-#### Running the app  
-* `npm start`  
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
-#### Tests  
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events

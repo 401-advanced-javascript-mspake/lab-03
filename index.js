@@ -1,6 +1,11 @@
 'use strict';
 
-const fileReader = require('./lib/reader.js');
+// Interchangable
+// const fileReader = require('./lib/reader.js');
+// const fileReader = require('./lib/reader-promises.js');
+const fileReader = require('./lib/reader-async.js');
+
+
 
 // Obtain and assert input
 let files = process.argv.slice(2);
