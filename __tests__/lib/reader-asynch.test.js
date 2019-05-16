@@ -4,7 +4,7 @@ jest.mock('fs');
 
 const reader = require('../../lib/reader-async.js');
 
-describe('File Reader Module', () => {
+describe('File Reader Using Asynch', () => {
 
   it('when given a bad file, returns an error', done => {
     let files = ['bad.txt'];
